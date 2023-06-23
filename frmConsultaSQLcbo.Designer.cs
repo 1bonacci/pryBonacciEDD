@@ -94,7 +94,8 @@
             this.Controls.Add(this.dgvSQL);
             this.Controls.Add(this.txtSQL);
             this.Name = "frmConsultaSQLcbo";
-            this.Text = "pryConsultaSQLcbo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Consulta SQL Combobox";
             this.Load += new System.EventHandler(this.frmConsultaSQLcbo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSQL)).EndInit();
             this.ResumeLayout(false);

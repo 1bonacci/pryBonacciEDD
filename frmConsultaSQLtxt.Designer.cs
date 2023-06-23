@@ -83,7 +83,8 @@
             this.Controls.Add(this.dgvSQL);
             this.Controls.Add(this.txtSQL);
             this.Name = "frmConsultaSQLtxt";
-            this.Text = "frmConsultaSQL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Consulta SQL";
             ((System.ComponentModel.ISupportInitialize)(this.dgvSQL)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

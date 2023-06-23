@@ -191,6 +191,7 @@
             this.Controls.Add(this.gpbProyeccion);
             this.Controls.Add(this.dgvGrilla);
             this.Name = "frmBaseDatos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Base de Datos";
             this.gpbSeleccion.ResumeLayout(false);
             this.gpbAlgebraicas.ResumeLayout(false);
